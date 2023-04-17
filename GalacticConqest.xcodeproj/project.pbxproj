@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7908AA3C29E8BC6500E8C84A /* ShapePlusStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */; };
+		7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7908AA3D29E8BCEB00E8C84A /* MyActions.sks */; };
+		7908AA4029E8BD3300E8C84A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA3F29E8BD3300E8C84A /* GameScene.swift */; };
+		7908AA4229E8BE9A00E8C84A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */; };
+		7908AA4429E8BF3700E8C84A /* GameFeaturesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */; };
+		7908AA4629E8C5E100E8C84A /* OnlineLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4529E8C5E100E8C84A /* OnlineLobbyView.swift */; };
+		7908AA4829E8C60100E8C84A /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4729E8C60100E8C84A /* GameModel.swift */; };
+		7908AA4A29E8C61100E8C84A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4929E8C61100E8C84A /* PlayerModel.swift */; };
+		7908AA4C29ECD5E100E8C84A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4B29ECD5E100E8C84A /* GameView.swift */; };
+		7908AA4E29ECD5F800E8C84A /* LocalLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4D29ECD5F800E8C84A /* LocalLobbyView.swift */; };
+		7908AA5029ECD66000E8C84A /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4F29ECD66000E8C84A /* PlayView.swift */; };
+		7908AA5229ECD73400E8C84A /* MultiplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5129ECD73400E8C84A /* MultiplayerView.swift */; };
+		7908AA5429ECD7E000E8C84A /* SinglePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5329ECD7E000E8C84A /* SinglePlayerView.swift */; };
+		79243B0129E88C7A00174594 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0029E88C7A00174594 /* GameScene.sks */; };
+		79243B0429E88D0800174594 /* titleSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0229E88D0800174594 /* titleSet.sks */; };
+		79243B0529E88D0800174594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0329E88D0800174594 /* Assets.xcassets */; };
+		79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0929E8929700174594 /* HomeSrceenView.swift */; };
+		79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0B29E8B04400174594 /* SettingPageView.swift */; };
+		79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0D29E8B05B00174594 /* GamePageView.swift */; };
 		797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19829E738EA00398669 /* GalacticConqestApp.swift */; };
 		797AC19B29E738EA00398669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19A29E738EA00398669 /* ContentView.swift */; };
 		797AC19D29E738EB00398669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19C29E738EB00398669 /* Assets.xcassets */; };
@@ -14,6 +33,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePlusStroke.swift; sourceTree = "<group>"; };
+		7908AA3D29E8BCEB00E8C84A /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
+		7908AA3F29E8BD3300E8C84A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFeaturesPageView.swift; sourceTree = "<group>"; };
+		7908AA4529E8C5E100E8C84A /* OnlineLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineLobbyView.swift; sourceTree = "<group>"; };
+		7908AA4729E8C60100E8C84A /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7908AA4929E8C61100E8C84A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		7908AA4B29ECD5E100E8C84A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7908AA4D29ECD5F800E8C84A /* LocalLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLobbyView.swift; sourceTree = "<group>"; };
+		7908AA4F29ECD66000E8C84A /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		7908AA5129ECD73400E8C84A /* MultiplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerView.swift; sourceTree = "<group>"; };
+		7908AA5329ECD7E000E8C84A /* SinglePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerView.swift; sourceTree = "<group>"; };
+		79243B0029E88C7A00174594 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		79243B0229E88D0800174594 /* titleSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = titleSet.sks; sourceTree = "<group>"; };
+		79243B0329E88D0800174594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79243B0929E8929700174594 /* HomeSrceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSrceenView.swift; sourceTree = "<group>"; };
+		79243B0B29E8B04400174594 /* SettingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageView.swift; sourceTree = "<group>"; };
+		79243B0D29E8B05B00174594 /* GamePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageView.swift; sourceTree = "<group>"; };
 		797AC19529E738EA00398669 /* GalacticConqest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalacticConqest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797AC19829E738EA00398669 /* GalacticConqestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticConqestApp.swift; sourceTree = "<group>"; };
 		797AC19A29E738EA00398669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +70,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7908AA5529ECD7F700E8C84A /* FeaturesView */ = {
+			isa = PBXGroup;
+			children = (
+				7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */,
+			);
+			path = FeaturesView;
+			sourceTree = "<group>";
+		};
+		79243AFC29E88B8800174594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79243B0929E8929700174594 /* HomeSrceenView.swift */,
+				79243B0B29E8B04400174594 /* SettingPageView.swift */,
+				79243B0D29E8B05B00174594 /* GamePageView.swift */,
+				7908AA5529ECD7F700E8C84A /* FeaturesView */,
+				7908AA4F29ECD66000E8C84A /* PlayView.swift */,
+				7908AA4B29ECD5E100E8C84A /* GameView.swift */,
+				7908AA5129ECD73400E8C84A /* MultiplayerView.swift */,
+				7908AA4529E8C5E100E8C84A /* OnlineLobbyView.swift */,
+				7908AA4D29ECD5F800E8C84A /* LocalLobbyView.swift */,
+				7908AA5329ECD7E000E8C84A /* SinglePlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79243AFD29E88B9900174594 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79243AFE29E88BA600174594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7908AA4729E8C60100E8C84A /* GameModel.swift */,
+				7908AA4929E8C61100E8C84A /* PlayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79243AFF29E88C2B00174594 /* SpritekitGame */ = {
+			isa = PBXGroup;
+			children = (
+				79243B0029E88C7A00174594 /* GameScene.sks */,
+				7908AA3D29E8BCEB00E8C84A /* MyActions.sks */,
+				7908AA3F29E8BD3300E8C84A /* GameScene.swift */,
+			);
+			path = SpritekitGame;
+			sourceTree = "<group>";
+		};
+		79243B0629E88D7000174594 /* GamesAssets */ = {
+			isa = PBXGroup;
+			children = (
+				79243B0229E88D0800174594 /* titleSet.sks */,
+				79243B0329E88D0800174594 /* Assets.xcassets */,
+			);
+			path = GamesAssets;
+			sourceTree = "<group>";
+		};
+		79243B1129E8BBC200174594 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		797AC18C29E738EA00398669 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +157,17 @@
 		797AC19729E738EA00398669 /* GalacticConqest */ = {
 			isa = PBXGroup;
 			children = (
+				79243AFF29E88C2B00174594 /* SpritekitGame */,
+				79243AFE29E88BA600174594 /* Model */,
+				79243AFD29E88B9900174594 /* ViewModel */,
+				79243AFC29E88B8800174594 /* View */,
 				797AC19829E738EA00398669 /* GalacticConqestApp.swift */,
 				797AC19A29E738EA00398669 /* ContentView.swift */,
 				797AC19C29E738EB00398669 /* Assets.xcassets */,
+				79243B0629E88D7000174594 /* GamesAssets */,
 				797AC19E29E738EB00398669 /* Preview Content */,
+				79243B1129E8BBC200174594 /* Extensions */,
+				7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */,
 			);
 			path = GalacticConqest;
 			sourceTree = "<group>";
@@ -126,7 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				797AC1A029E738EB00398669 /* Preview Assets.xcassets in Resources */,
+				7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */,
+				79243B0429E88D0800174594 /* titleSet.sks in Resources */,
+				79243B0129E88C7A00174594 /* GameScene.sks in Resources */,
 				797AC19D29E738EB00398669 /* Assets.xcassets in Resources */,
+				7908AA4229E8BE9A00E8C84A /* Storyboard.storyboard in Resources */,
+				79243B0529E88D0800174594 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +256,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				797AC19B29E738EA00398669 /* ContentView.swift in Sources */,
+				7908AA4A29E8C61100E8C84A /* PlayerModel.swift in Sources */,
+				79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */,
 				797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */,
+				7908AA5229ECD73400E8C84A /* MultiplayerView.swift in Sources */,
+				7908AA4629E8C5E100E8C84A /* OnlineLobbyView.swift in Sources */,
+				79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */,
+				7908AA4829E8C60100E8C84A /* GameModel.swift in Sources */,
+				79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */,
+				7908AA4029E8BD3300E8C84A /* GameScene.swift in Sources */,
+				7908AA4429E8BF3700E8C84A /* GameFeaturesPageView.swift in Sources */,
+				7908AA5429ECD7E000E8C84A /* SinglePlayerView.swift in Sources */,
+				7908AA5029ECD66000E8C84A /* PlayView.swift in Sources */,
+				7908AA4C29ECD5E100E8C84A /* GameView.swift in Sources */,
+				7908AA3C29E8BC6500E8C84A /* ShapePlusStroke.swift in Sources */,
+				7908AA4E29ECD5F800E8C84A /* LocalLobbyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

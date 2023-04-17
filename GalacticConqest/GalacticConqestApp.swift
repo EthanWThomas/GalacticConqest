@@ -11,7 +11,7 @@ import SwiftUI
 struct GalacticConqestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeSrceenView()
         }
     }
 }
