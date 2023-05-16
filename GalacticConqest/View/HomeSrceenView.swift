@@ -10,14 +10,26 @@ import SwiftUI
 struct HomeSrceenView: View {
     var body: some View {
         NavigationStack {
-            VStack {
-                gameTitle
-                Spacer()
-                playButton
-                settingButton
-                features
-                gamePage
+            ZStack {
+               Color("SpaceColors")
+                .ignoresSafeArea()
+                moonDrop
+                    .padding(-25)
+                VStack {
+                    gameTitle
+                        .padding(.bottom)
+                    playButton
+                    settingButton
+                    gamePage
+                    features
+                }
             }
+        }
+    }
+    
+    var colorBackground: some View {
+        VStack {
+            
         }
     }
     
@@ -26,9 +38,14 @@ struct HomeSrceenView: View {
             NavigationLink {
                 PlayView()
             } label: {
-                Text("Play")
-                    .font(.largeTitle)
-                    .foregroundColor(.black)
+                Text("PLAY")
+                    .font(.custom("Super Mario Bros. 2", fixedSize: 25))
+                    .foregroundColor(.yellow)
+//                    .padding()
+//                Image("Earth1313")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .aspectRatio(contentMode: .fit)
             }
 
         }
@@ -40,10 +57,13 @@ struct HomeSrceenView: View {
                 SettingPage()
             } label: {
                 Text("Setting")
-                    .font(.largeTitle)
-                    .foregroundColor(.black)
+                    .foregroundColor(.yellow)
+                    .font(.custom("Super Mario Bros. 2", fixedSize: 15))
+//                Image("Tulia")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .aspectRatio(contentMode: .fit)
             }
-
         }
     }
     
@@ -52,9 +72,14 @@ struct HomeSrceenView: View {
             Button {
                 //this will navigate to the game pages
             } label: {
-                Text("GamePage")
-                    .font(.largeTitle)
-                    .foregroundColor(.black)
+                Text("GAMEPAGE")
+                    .foregroundColor(.yellow)
+                    .font(.custom("Super Mario Bros. 2", fixedSize: 15))
+                    
+//                Image("Droutera 4IX")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .aspectRatio(contentMode: .fit)
             }
         }
     }
@@ -64,33 +89,48 @@ struct HomeSrceenView: View {
             Button {
                 //this will navigate to the features pages
             } label: {
-                Text("Features")
-                    .font(.largeTitle)
-                    .foregroundColor(.black)
+                Text("FEATURES")
+                    .foregroundColor(.yellow)
+                    .font(.custom("Super Mario Bros. 2", fixedSize: 15))
+//                Image("Moon1313")
+//                    .resizable()
+//                    .scaledToFit()
+//                    .aspectRatio(contentMode: .fit)
             }
-
         }
     }
     
     var gameTitle: some View {
         VStack {
-            Text("Galactic Conqest")
+            Text("Galactic")
                 .foregroundColor(.yellow)
-                .font(.largeTitle)
-                .padding(30)
+                .font(.custom("Super Mario Bros. 2", size: 45))
+            Text("Conqest")
+                .foregroundColor(.yellow)
+                .font(.custom("Super Mario Bros. 2", fixedSize: 45))
+                .padding()
+               
         }
     }
     
-    var galacticBackground: some View {
+    var moonDrop: some View {
         VStack {
-            foregroundColor(.white)
-            
+            Spacer()
+            Image("MoonDropCropOff")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 875)
+                .fixedSize()
+                .ignoresSafeArea()
+                .padding(.top)
         }
+        .ignoresSafeArea()
     }
 }
 
 struct HomeSrceenView_Previews: PreviewProvider {
     static var previews: some View {
         HomeSrceenView()
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }

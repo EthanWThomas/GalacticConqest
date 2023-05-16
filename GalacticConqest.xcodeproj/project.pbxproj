@@ -24,13 +24,15 @@
 		7908AA5929F73AAB00E8C84A /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5829F73AAB00E8C84A /* GameViewModel.swift */; };
 		7908AA5B29F73AD300E8C84A /* OnlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5A29F73AD300E8C84A /* OnlineViewModel.swift */; };
 		7908AA5D29F73AF400E8C84A /* LobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5C29F73AF400E8C84A /* LobbyViewModel.swift */; };
-		7908AA5F29F85DF700E8C84A /* AnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA5E29F85DF700E8C84A /* AnalogJoystick.swift */; };
-		79243B0129E88C7A00174594 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0029E88C7A00174594 /* GameScene.sks */; };
+		7908AA7F29F9D7D700E8C84A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7908AA7E29F9D7D700E8C84A /* GameScene.sks */; };
+		7908AAA62A0054CB00E8C84A /* JoystickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AAA52A0054CB00E8C84A /* JoystickModel.swift */; };
+		7908AAA92A0383E900E8C84A /* Super Mario Bros. 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */; };
 		79243B0429E88D0800174594 /* titleSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0229E88D0800174594 /* titleSet.sks */; };
 		79243B0529E88D0800174594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0329E88D0800174594 /* Assets.xcassets */; };
 		79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0929E8929700174594 /* HomeSrceenView.swift */; };
 		79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0B29E8B04400174594 /* SettingPageView.swift */; };
 		79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0D29E8B05B00174594 /* GamePageView.swift */; };
+		79390C742A122D110051A3CF /* AttackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79390C732A122D110051A3CF /* AttackModel.swift */; };
 		797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19829E738EA00398669 /* GalacticConqestApp.swift */; };
 		797AC19B29E738EA00398669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19A29E738EA00398669 /* ContentView.swift */; };
 		797AC19D29E738EB00398669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19C29E738EB00398669 /* Assets.xcassets */; };
@@ -55,13 +57,16 @@
 		7908AA5829F73AAB00E8C84A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		7908AA5A29F73AD300E8C84A /* OnlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewModel.swift; sourceTree = "<group>"; };
 		7908AA5C29F73AF400E8C84A /* LobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewModel.swift; sourceTree = "<group>"; };
-		7908AA5E29F85DF700E8C84A /* AnalogJoystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
-		79243B0029E88C7A00174594 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7908AA7E29F9D7D700E8C84A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7908AAA52A0054CB00E8C84A /* JoystickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickModel.swift; sourceTree = "<group>"; };
+		7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Super Mario Bros. 2.ttf"; sourceTree = "<group>"; };
+		7908AAAA2A03864900E8C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		79243B0229E88D0800174594 /* titleSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = titleSet.sks; sourceTree = "<group>"; };
 		79243B0329E88D0800174594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79243B0929E8929700174594 /* HomeSrceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSrceenView.swift; sourceTree = "<group>"; };
 		79243B0B29E8B04400174594 /* SettingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageView.swift; sourceTree = "<group>"; };
 		79243B0D29E8B05B00174594 /* GamePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageView.swift; sourceTree = "<group>"; };
+		79390C732A122D110051A3CF /* AttackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackModel.swift; sourceTree = "<group>"; };
 		797AC19529E738EA00398669 /* GalacticConqest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalacticConqest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797AC19829E738EA00398669 /* GalacticConqestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticConqestApp.swift; sourceTree = "<group>"; };
 		797AC19A29E738EA00398669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +91,14 @@
 				7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */,
 			);
 			path = FeaturesView;
+			sourceTree = "<group>";
+		};
+		7908AAA72A0383A100E8C84A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		79243AFC29E88B8800174594 /* View */ = {
@@ -127,10 +140,11 @@
 		79243AFF29E88C2B00174594 /* SpritekitGame */ = {
 			isa = PBXGroup;
 			children = (
-				79243B0029E88C7A00174594 /* GameScene.sks */,
 				7908AA3D29E8BCEB00E8C84A /* MyActions.sks */,
+				7908AA7E29F9D7D700E8C84A /* GameScene.sks */,
 				7908AA3F29E8BD3300E8C84A /* GameScene.swift */,
-				7908AA5E29F85DF700E8C84A /* AnalogJoystick.swift */,
+				7908AAA52A0054CB00E8C84A /* JoystickModel.swift */,
+				79390C732A122D110051A3CF /* AttackModel.swift */,
 				7908AA5629EF2BF200E8C84A /* GameViewController.swift */,
 			);
 			path = SpritekitGame;
@@ -172,6 +186,7 @@
 		797AC19729E738EA00398669 /* GalacticConqest */ = {
 			isa = PBXGroup;
 			children = (
+				7908AAAA2A03864900E8C84A /* Info.plist */,
 				79243AFF29E88C2B00174594 /* SpritekitGame */,
 				79243AFE29E88BA600174594 /* Model */,
 				79243AFD29E88B9900174594 /* ViewModel */,
@@ -180,6 +195,7 @@
 				797AC19A29E738EA00398669 /* ContentView.swift */,
 				797AC19C29E738EB00398669 /* Assets.xcassets */,
 				79243B0629E88D7000174594 /* GamesAssets */,
+				7908AAA72A0383A100E8C84A /* Fonts */,
 				797AC19E29E738EB00398669 /* Preview Content */,
 				79243B1129E8BBC200174594 /* Extensions */,
 				7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */,
@@ -253,11 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7908AAA92A0383E900E8C84A /* Super Mario Bros. 2.ttf in Resources */,
 				797AC1A029E738EB00398669 /* Preview Assets.xcassets in Resources */,
 				7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */,
 				79243B0429E88D0800174594 /* titleSet.sks in Resources */,
-				79243B0129E88C7A00174594 /* GameScene.sks in Resources */,
 				797AC19D29E738EB00398669 /* Assets.xcassets in Resources */,
+				7908AA7F29F9D7D700E8C84A /* GameScene.sks in Resources */,
 				7908AA4229E8BE9A00E8C84A /* Storyboard.storyboard in Resources */,
 				79243B0529E88D0800174594 /* Assets.xcassets in Resources */,
 			);
@@ -274,13 +291,14 @@
 				797AC19B29E738EA00398669 /* ContentView.swift in Sources */,
 				7908AA4A29E8C61100E8C84A /* PlayerModel.swift in Sources */,
 				79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */,
-				7908AA5F29F85DF700E8C84A /* AnalogJoystick.swift in Sources */,
 				797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */,
 				7908AA5229ECD73400E8C84A /* MultiplayerSV.swift in Sources */,
 				7908AA4629E8C5E100E8C84A /* OnlineLobbyView.swift in Sources */,
+				79390C742A122D110051A3CF /* AttackModel.swift in Sources */,
 				7908AA5B29F73AD300E8C84A /* OnlineViewModel.swift in Sources */,
 				7908AA5729EF2BF200E8C84A /* GameViewController.swift in Sources */,
 				79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */,
+				7908AAA62A0054CB00E8C84A /* JoystickModel.swift in Sources */,
 				7908AA4829E8C60100E8C84A /* GameModel.swift in Sources */,
 				79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */,
 				7908AA4029E8BD3300E8C84A /* GameScene.swift in Sources */,
@@ -422,6 +440,7 @@
 				DEVELOPMENT_TEAM = V2J8W6ZD56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalacticConqest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +470,7 @@
 				DEVELOPMENT_TEAM = V2J8W6ZD56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GalacticConqest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
