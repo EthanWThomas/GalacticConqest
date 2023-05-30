@@ -10,7 +10,6 @@
 		7908AA3C29E8BC6500E8C84A /* ShapePlusStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */; };
 		7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7908AA3D29E8BCEB00E8C84A /* MyActions.sks */; };
 		7908AA4029E8BD3300E8C84A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA3F29E8BD3300E8C84A /* GameScene.swift */; };
-		7908AA4229E8BE9A00E8C84A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */; };
 		7908AA4429E8BF3700E8C84A /* GameFeaturesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */; };
 		7908AA4629E8C5E100E8C84A /* OnlineLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4529E8C5E100E8C84A /* OnlineLobbyView.swift */; };
 		7908AA4829E8C60100E8C84A /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AA4729E8C60100E8C84A /* GameModel.swift */; };
@@ -32,7 +31,9 @@
 		79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0929E8929700174594 /* HomeSrceenView.swift */; };
 		79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0B29E8B04400174594 /* SettingPageView.swift */; };
 		79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0D29E8B05B00174594 /* GamePageView.swift */; };
-		79390C742A122D110051A3CF /* AttackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79390C732A122D110051A3CF /* AttackModel.swift */; };
+		79390C742A122D110051A3CF /* ShootingJoysickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79390C732A122D110051A3CF /* ShootingJoysickModel.swift */; };
+		7949A02C2A16D36300258759 /* planetGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7949A02B2A16D36300258759 /* planetGif.gif */; };
+		7949A02F2A16D3E200258759 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949A02E2A16D3E200258759 /* GifView.swift */; };
 		797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19829E738EA00398669 /* GalacticConqestApp.swift */; };
 		797AC19B29E738EA00398669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19A29E738EA00398669 /* ContentView.swift */; };
 		797AC19D29E738EB00398669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19C29E738EB00398669 /* Assets.xcassets */; };
@@ -43,7 +44,6 @@
 		7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePlusStroke.swift; sourceTree = "<group>"; };
 		7908AA3D29E8BCEB00E8C84A /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 		7908AA3F29E8BD3300E8C84A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7908AA4329E8BF3700E8C84A /* GameFeaturesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFeaturesPageView.swift; sourceTree = "<group>"; };
 		7908AA4529E8C5E100E8C84A /* OnlineLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineLobbyView.swift; sourceTree = "<group>"; };
 		7908AA4729E8C60100E8C84A /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
@@ -66,7 +66,9 @@
 		79243B0929E8929700174594 /* HomeSrceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSrceenView.swift; sourceTree = "<group>"; };
 		79243B0B29E8B04400174594 /* SettingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageView.swift; sourceTree = "<group>"; };
 		79243B0D29E8B05B00174594 /* GamePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageView.swift; sourceTree = "<group>"; };
-		79390C732A122D110051A3CF /* AttackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackModel.swift; sourceTree = "<group>"; };
+		79390C732A122D110051A3CF /* ShootingJoysickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingJoysickModel.swift; sourceTree = "<group>"; };
+		7949A02B2A16D36300258759 /* planetGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = planetGif.gif; sourceTree = "<group>"; };
+		7949A02E2A16D3E200258759 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 		797AC19529E738EA00398669 /* GalacticConqest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalacticConqest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797AC19829E738EA00398669 /* GalacticConqestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticConqestApp.swift; sourceTree = "<group>"; };
 		797AC19A29E738EA00398669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		79243AFC29E88B8800174594 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7949A02D2A16D3AD00258759 /* GifAssetsView */,
 				79243B0929E8929700174594 /* HomeSrceenView.swift */,
 				79243B0B29E8B04400174594 /* SettingPageView.swift */,
 				79243B0D29E8B05B00174594 /* GamePageView.swift */,
@@ -144,7 +147,7 @@
 				7908AA7E29F9D7D700E8C84A /* GameScene.sks */,
 				7908AA3F29E8BD3300E8C84A /* GameScene.swift */,
 				7908AAA52A0054CB00E8C84A /* JoystickModel.swift */,
-				79390C732A122D110051A3CF /* AttackModel.swift */,
+				79390C732A122D110051A3CF /* ShootingJoysickModel.swift */,
 				7908AA5629EF2BF200E8C84A /* GameViewController.swift */,
 			);
 			path = SpritekitGame;
@@ -165,6 +168,22 @@
 				7908AA3B29E8BC6500E8C84A /* ShapePlusStroke.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7949A02A2A16D33400258759 /* GifAssets */ = {
+			isa = PBXGroup;
+			children = (
+				7949A02B2A16D36300258759 /* planetGif.gif */,
+			);
+			path = GifAssets;
+			sourceTree = "<group>";
+		};
+		7949A02D2A16D3AD00258759 /* GifAssetsView */ = {
+			isa = PBXGroup;
+			children = (
+				7949A02E2A16D3E200258759 /* GifView.swift */,
+			);
+			path = GifAssetsView;
 			sourceTree = "<group>";
 		};
 		797AC18C29E738EA00398669 = {
@@ -194,11 +213,11 @@
 				797AC19829E738EA00398669 /* GalacticConqestApp.swift */,
 				797AC19A29E738EA00398669 /* ContentView.swift */,
 				797AC19C29E738EB00398669 /* Assets.xcassets */,
+				79243B1129E8BBC200174594 /* Extensions */,
+				7949A02A2A16D33400258759 /* GifAssets */,
 				79243B0629E88D7000174594 /* GamesAssets */,
 				7908AAA72A0383A100E8C84A /* Fonts */,
 				797AC19E29E738EB00398669 /* Preview Content */,
-				79243B1129E8BBC200174594 /* Extensions */,
-				7908AA4129E8BE9A00E8C84A /* Storyboard.storyboard */,
 			);
 			path = GalacticConqest;
 			sourceTree = "<group>";
@@ -272,10 +291,10 @@
 				7908AAA92A0383E900E8C84A /* Super Mario Bros. 2.ttf in Resources */,
 				797AC1A029E738EB00398669 /* Preview Assets.xcassets in Resources */,
 				7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */,
+				7949A02C2A16D36300258759 /* planetGif.gif in Resources */,
 				79243B0429E88D0800174594 /* titleSet.sks in Resources */,
 				797AC19D29E738EB00398669 /* Assets.xcassets in Resources */,
 				7908AA7F29F9D7D700E8C84A /* GameScene.sks in Resources */,
-				7908AA4229E8BE9A00E8C84A /* Storyboard.storyboard in Resources */,
 				79243B0529E88D0800174594 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +313,7 @@
 				797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */,
 				7908AA5229ECD73400E8C84A /* MultiplayerSV.swift in Sources */,
 				7908AA4629E8C5E100E8C84A /* OnlineLobbyView.swift in Sources */,
-				79390C742A122D110051A3CF /* AttackModel.swift in Sources */,
+				79390C742A122D110051A3CF /* ShootingJoysickModel.swift in Sources */,
 				7908AA5B29F73AD300E8C84A /* OnlineViewModel.swift in Sources */,
 				7908AA5729EF2BF200E8C84A /* GameViewController.swift in Sources */,
 				79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */,
@@ -302,6 +321,7 @@
 				7908AA4829E8C60100E8C84A /* GameModel.swift in Sources */,
 				79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */,
 				7908AA4029E8BD3300E8C84A /* GameScene.swift in Sources */,
+				7949A02F2A16D3E200258759 /* GifView.swift in Sources */,
 				7908AA4429E8BF3700E8C84A /* GameFeaturesPageView.swift in Sources */,
 				7908AA5429ECD7E000E8C84A /* SinglePlayerSV.swift in Sources */,
 				7908AA5029ECD66000E8C84A /* PlayView.swift in Sources */,
@@ -434,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GalacticConqest/Preview Content\"";
@@ -441,11 +462,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalacticConqest/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GalacticConqest/Preview Content\"";
@@ -471,11 +492,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GalacticConqest/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

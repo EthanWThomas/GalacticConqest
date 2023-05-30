@@ -10,23 +10,23 @@ import SwiftUI
 
 struct PlayView: View {
     
-    @State var isPresented = false
-    
     var body: some View {
-        VStack(spacing: 30) {
-            NavigationStack {
-                singlePlayerButton
-                multiplayerButton
-                    .padding()
+        NavigationStack {
+            ZStack {
+                Color(.white)
+                    .ignoresSafeArea()
+                VStack(spacing: 30) {
+                    singlePlayerButton
+                    multiplayerButton
+                        .padding()
+                }
             }
-            
         }
     }
-    
-    
+
     var singlePlayerButton: some View {
         NavigationLink {
-            SinglePlayerView(isPresented: $isPresented)
+            SinglePlayerView()
         } label: {
             Text("Single-Player")
                 .font(.largeTitle)
@@ -50,6 +50,7 @@ struct PlayView: View {
     struct PlayView_Previews: PreviewProvider {
         static var previews: some View {
             PlayView()
+                .previewInterfaceOrientation(.landscapeLeft)
         }
     }
 }

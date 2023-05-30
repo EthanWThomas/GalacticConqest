@@ -11,10 +11,7 @@ struct HomeSrceenView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-               Color("SpaceColors")
-                .ignoresSafeArea()
-                moonDrop
-                    .padding(-25)
+                spaceBackground
                 VStack {
                     gameTitle
                         .padding(.bottom)
@@ -22,14 +19,9 @@ struct HomeSrceenView: View {
                     settingButton
                     gamePage
                     features
+                        .padding(.bottom)
                 }
             }
-        }
-    }
-    
-    var colorBackground: some View {
-        VStack {
-            
         }
     }
     
@@ -40,12 +32,7 @@ struct HomeSrceenView: View {
             } label: {
                 Text("PLAY")
                     .font(.custom("Super Mario Bros. 2", fixedSize: 25))
-                    .foregroundColor(.yellow)
-//                    .padding()
-//                Image("Earth1313")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(Color("AppColors"))
             }
 
         }
@@ -57,12 +44,8 @@ struct HomeSrceenView: View {
                 SettingPage()
             } label: {
                 Text("Setting")
-                    .foregroundColor(.yellow)
+                    .foregroundColor(Color("AppColors"))
                     .font(.custom("Super Mario Bros. 2", fixedSize: 15))
-//                Image("Tulia")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .aspectRatio(contentMode: .fit)
             }
         }
     }
@@ -73,13 +56,8 @@ struct HomeSrceenView: View {
                 //this will navigate to the game pages
             } label: {
                 Text("GAMEPAGE")
-                    .foregroundColor(.yellow)
+                    .foregroundColor(Color("AppColors"))
                     .font(.custom("Super Mario Bros. 2", fixedSize: 15))
-                    
-//                Image("Droutera 4IX")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .aspectRatio(contentMode: .fit)
             }
         }
     }
@@ -90,41 +68,38 @@ struct HomeSrceenView: View {
                 //this will navigate to the features pages
             } label: {
                 Text("FEATURES")
-                    .foregroundColor(.yellow)
+                    .foregroundColor(Color("AppColors"))
                     .font(.custom("Super Mario Bros. 2", fixedSize: 15))
-//                Image("Moon1313")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .aspectRatio(contentMode: .fit)
             }
         }
     }
     
     var gameTitle: some View {
         VStack {
-            Text("Galactic")
-                .foregroundColor(.yellow)
-                .font(.custom("Super Mario Bros. 2", size: 45))
-            Text("Conqest")
-                .foregroundColor(.yellow)
-                .font(.custom("Super Mario Bros. 2", fixedSize: 45))
-                .padding()
-               
+            Image("GalacticConqest")
+                .scaledToFit()
+                .aspectRatio(contentMode: .fit)
         }
     }
     
-    var moonDrop: some View {
+    var spaceBackground: some View {
         VStack {
             Spacer()
-            Image("MoonDropCropOff")
+            Image("SpaceBackground")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 875)
-                .fixedSize()
+                .scaledToFill()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 200, height: 408)
                 .ignoresSafeArea()
-                .padding(.top)
+                
+               
         }
-        .ignoresSafeArea()
+        
+    }
+    
+    var gifView: some View {
+        GifView(name: "planetGif")
+            .frame(width: 320, height: 320)
     }
 }
 

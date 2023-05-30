@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C3FA51D-6C84-4761-B81E-D0621D7B92E6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GalacticConqest/View/HomeSrceenView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "HomeSrceenView"
-            landmarkType = "14">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "68DA6D93-5EE9-4835-9A63-57E2EFE56454"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -30,8 +14,8 @@
             filePath = "GalacticConqest/View/HomeSrceenView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -46,8 +30,8 @@
             filePath = "GalacticConqest/View/HomeSrceenView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "settingButton"
             landmarkType = "24">
             <Locations>
@@ -94,8 +78,8 @@
             filePath = "GalacticConqest/View/HomeSrceenView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "settingButton"
             landmarkType = "24">
          </BreakpointContent>
@@ -110,8 +94,8 @@
             filePath = "GalacticConqest/View/HomeSrceenView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -126,8 +110,8 @@
             filePath = "GalacticConqest/View/HomeSrceenView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "playButton"
             landmarkType = "24">
             <Locations>
@@ -193,6 +177,166 @@
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "createJoystickBase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71ED6F8B-12DA-41E7-AA93-0BAEA7E6AAAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/View/HomeSrceenView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "71ED6F8B-12DA-41E7-AA93-0BAEA7E6AAAE - 4b880e3d9d1bcfdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt;&gt; in GalacticConqest.HomeSrceenView.body.getter : some"
+                  moduleName = "GalacticConqest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethanthomas/Documents/IOS/GalacticConqest/GalacticConqest/View/HomeSrceenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  uuid = "71ED6F8B-12DA-41E7-AA93-0BAEA7E6AAAE - 580c5f5b0b1e16cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt;&gt; in GalacticConqest.HomeSrceenView.body.getter : some"
+                  moduleName = "GalacticConqest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethanthomas/Documents/IOS/GalacticConqest/GalacticConqest/View/HomeSrceenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AA8DA00-3573-4D2E-800E-F8DB59981E91"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/View/HomeSrceenView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0AA8DA00-3573-4D2E-800E-F8DB59981E91 - 4b880e3d9d1bcfdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt;&gt; in GalacticConqest.HomeSrceenView.body.getter : some"
+                  moduleName = "GalacticConqest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethanthomas/Documents/IOS/GalacticConqest/GalacticConqest/View/HomeSrceenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  uuid = "0AA8DA00-3573-4D2E-800E-F8DB59981E91 - 580c5f5b0b1e16cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.playButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.settingButton : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.gamePage : some&gt;&gt;.0, &lt;&lt;opaque return type of GalacticConqest.HomeSrceenView.features : some&gt;&gt;.0)&gt;&gt;)&gt;&gt; in GalacticConqest.HomeSrceenView.body.getter : some"
+                  moduleName = "GalacticConqest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethanthomas/Documents/IOS/GalacticConqest/GalacticConqest/View/HomeSrceenView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAC0B510-9EB4-42DA-B2C0-B644F9FE2894"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/View/HomeSrceenView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6AFBA51-6B96-47D8-9F20-048BC9A1E9D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/View/HomeSrceenView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4B42585-BAE9-4331-AFA2-7011F4095E05"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/View/HomeSrceenView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5913FBC6-B7EB-4820-9F69-96378A0D3C5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalacticConqest/SpritekitGame/ShootingJoysickModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "createAttactJoystickBase()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

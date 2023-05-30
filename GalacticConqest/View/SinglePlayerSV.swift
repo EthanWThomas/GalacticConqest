@@ -10,10 +10,9 @@ import SpriteKit
 
 struct SinglePlayerView: View {
     
-    @Binding var isPresented: Bool
-    
     var scene: SKScene {
         let scene = GameScene(fileNamed: "GameScene") ?? GameScene()
+        
         
         return scene
     }
