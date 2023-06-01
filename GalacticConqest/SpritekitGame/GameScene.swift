@@ -37,7 +37,7 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         
         self.player = playerNode
         
-        guard let playerNode2 = self.childNode(withName: "enemyAi") as? SKSpriteNode
+        guard let playerNode2 = self.childNode(withName: "player2") as? SKSpriteNode
         else { return }
         playerNode2.position = CGPoint(x: 50, y: 50)
         
@@ -54,11 +54,11 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         camera?.addChild(joystick)
         camera?.addChild(joystick.child)
         
-        camera?.addChild(attackJoystick)
-        camera?.addChild(attackJoystick.child!)
+//        camera?.addChild(attackJoystick)
+//        camera?.addChild(attackJoystick.child!)
         
         joystick.hiden()
-        attackJoystick.hiden()
+//        attackJoystick.hiden()
         
         player.physicsBody = SKPhysicsBody(rectangleOf: player.frame.size)
         player.position = CGPoint(x: self.frame.maxX, y: self.frame.midY)
@@ -70,12 +70,19 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         
     }
     
-    func enemyMoventCalculations() {
-        let playerPosition = player.position
-        let enemyPosition = position
-        
-        
-    }
+//    func enemyMoventCalculations() {
+//        let playerPosition = player.position
+//        let enemyPosition = player2.position
+//
+//        let direction = CGVector(dx: playerPosition.x - enemyPosition.x, dy: playerPosition.y - enemyPosition.y)
+//
+//        let animationDuration: TimeInterval = 1
+//
+//        let moveAction = SKAction.move(by: direction, duration: animationDuration)
+//        run(moveAction)
+//
+////        player2.physicsBody?.applyImpulse(direction)
+//    }
     
     //MARK: Joystick
     func attackjoystickBeganCalculations(_ touches: Set<UITouch>) {
@@ -90,7 +97,7 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        attackjoystickBeganCalculations(touches)
+//        attackjoystickBeganCalculations(touches)
         
         let touch = touches.first!
         let location = touch.location(in: sceneCamera)
@@ -123,7 +130,7 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        attackjoysticktouchesMovedCalculations(touches)
+//        attackjoysticktouchesMovedCalculations(touches)
         
         for touch in touches {
             let locction = touch.location(in: sceneCamera)
@@ -150,7 +157,7 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        attackJoystickTouchesEnded(touches)
+//        attackJoystickTouchesEnded(touches)
 
         if joystick.activo {
             joystick.coreReturn()
@@ -172,8 +179,8 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
             player.position = CGPoint(x: player.position.x - (velocidadX),
                                     y: player.position.y + (velocidadY))
         }
-
-
+        
+        
         lastTime = currentTime
     }
     

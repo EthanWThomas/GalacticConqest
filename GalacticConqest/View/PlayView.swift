@@ -15,7 +15,7 @@ struct PlayView: View {
             ZStack {
                 Color(.white)
                     .ignoresSafeArea()
-                VStack(spacing: 30) {
+                VStack(spacing: 50) {
                     singlePlayerButton
                     multiplayerButton
                         .padding()
@@ -29,8 +29,8 @@ struct PlayView: View {
             SinglePlayerView()
         } label: {
             Text("Single-Player")
-                .font(.largeTitle)
-                .foregroundColor(.black)
+                .font(.custom("Super Mario Bros. 2", fixedSize: 25))
+                .foregroundColor(Color("AppColors"))
                 .padding()
         }
 
@@ -41,8 +41,8 @@ struct PlayView: View {
             //
         } label: {
             Text("Multiplayer")
-                .font(.largeTitle)
-                .foregroundColor(.black)
+                .font(.custom("Super Mario Bros. 2", fixedSize: 25))
+                .foregroundColor(Color("AppColors"))
         }
 
     }

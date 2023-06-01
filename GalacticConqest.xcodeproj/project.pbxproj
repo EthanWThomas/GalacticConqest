@@ -27,7 +27,6 @@
 		7908AAA62A0054CB00E8C84A /* JoystickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908AAA52A0054CB00E8C84A /* JoystickModel.swift */; };
 		7908AAA92A0383E900E8C84A /* Super Mario Bros. 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */; };
 		79243B0429E88D0800174594 /* titleSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0229E88D0800174594 /* titleSet.sks */; };
-		79243B0529E88D0800174594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79243B0329E88D0800174594 /* Assets.xcassets */; };
 		79243B0A29E8929700174594 /* HomeSrceenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0929E8929700174594 /* HomeSrceenView.swift */; };
 		79243B0C29E8B04400174594 /* SettingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0B29E8B04400174594 /* SettingPageView.swift */; };
 		79243B0E29E8B05B00174594 /* GamePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243B0D29E8B05B00174594 /* GamePageView.swift */; };
@@ -62,7 +61,6 @@
 		7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Super Mario Bros. 2.ttf"; sourceTree = "<group>"; };
 		7908AAAA2A03864900E8C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		79243B0229E88D0800174594 /* titleSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = titleSet.sks; sourceTree = "<group>"; };
-		79243B0329E88D0800174594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79243B0929E8929700174594 /* HomeSrceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSrceenView.swift; sourceTree = "<group>"; };
 		79243B0B29E8B04400174594 /* SettingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageView.swift; sourceTree = "<group>"; };
 		79243B0D29E8B05B00174594 /* GamePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageView.swift; sourceTree = "<group>"; };
@@ -149,17 +147,17 @@
 				7908AAA52A0054CB00E8C84A /* JoystickModel.swift */,
 				79390C732A122D110051A3CF /* ShootingJoysickModel.swift */,
 				7908AA5629EF2BF200E8C84A /* GameViewController.swift */,
+				79243B0629E88D7000174594 /* GamesTitles */,
 			);
 			path = SpritekitGame;
 			sourceTree = "<group>";
 		};
-		79243B0629E88D7000174594 /* GamesAssets */ = {
+		79243B0629E88D7000174594 /* GamesTitles */ = {
 			isa = PBXGroup;
 			children = (
 				79243B0229E88D0800174594 /* titleSet.sks */,
-				79243B0329E88D0800174594 /* Assets.xcassets */,
 			);
-			path = GamesAssets;
+			path = GamesTitles;
 			sourceTree = "<group>";
 		};
 		79243B1129E8BBC200174594 /* Extensions */ = {
@@ -215,7 +213,6 @@
 				797AC19C29E738EB00398669 /* Assets.xcassets */,
 				79243B1129E8BBC200174594 /* Extensions */,
 				7949A02A2A16D33400258759 /* GifAssets */,
-				79243B0629E88D7000174594 /* GamesAssets */,
 				7908AAA72A0383A100E8C84A /* Fonts */,
 				797AC19E29E738EB00398669 /* Preview Content */,
 			);
@@ -295,7 +292,6 @@
 				79243B0429E88D0800174594 /* titleSet.sks in Resources */,
 				797AC19D29E738EB00398669 /* Assets.xcassets in Resources */,
 				7908AA7F29F9D7D700E8C84A /* GameScene.sks in Resources */,
-				79243B0529E88D0800174594 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
