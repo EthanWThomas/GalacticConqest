@@ -17,6 +17,10 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     var sceneCamera = SKCameraNode()
     var projectileSprite: SKSpriteNode = SKSpriteNode()
     
+    var themap: SKTileMapNode = SKTileMapNode(tileSet: SKTileSet(tileGroups: [.empty()]), columns: 24, rows: 24, tileSize: CGSize(width: 32, height: 32))
+    
+    var enemySprite = EnemyAISpriteController()
+    
 //    var playerSpeed = 3.0
     var plasmaCategory: UInt32 = 0x1 << 0
     var velocidadX: CGFloat = 0.0
@@ -46,6 +50,10 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         if let camera = self.childNode(withName: "Camera") as? SKCameraNode {
             self.sceneCamera = camera
         }
+        
+        if let mapNode = self.childNode(withName: "Map") as? SKTileMapNode {
+            self.themap = mapNode
+        }
 
         camera = sceneCamera
         
@@ -54,9 +62,8 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         camera?.addChild(joystick)
         camera?.addChild(joystick.child)
         
-//        camera?.addChild(attackJoystick)
-//        camera?.addChild(attackJoystick.child!)
-        
+        self.addChild(enemySprite.spawnEnemy(targetSprite: player))
+
         joystick.hiden()
 //        attackJoystick.hiden()
         
@@ -70,19 +77,6 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         
     }
     
-//    func enemyMoventCalculations() {
-//        let playerPosition = player.position
-//        let enemyPosition = player2.position
-//
-//        let direction = CGVector(dx: playerPosition.x - enemyPosition.x, dy: playerPosition.y - enemyPosition.y)
-//
-//        let animationDuration: TimeInterval = 1
-//
-//        let moveAction = SKAction.move(by: direction, duration: animationDuration)
-//        run(moveAction)
-//
-////        player2.physicsBody?.applyImpulse(direction)
-//    }
     
     //MARK: Joystick
     func attackjoystickBeganCalculations(_ touches: Set<UITouch>) {

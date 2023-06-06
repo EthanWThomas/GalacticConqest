@@ -33,10 +33,11 @@
 		79390C742A122D110051A3CF /* ShootingJoysickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79390C732A122D110051A3CF /* ShootingJoysickModel.swift */; };
 		7949A02C2A16D36300258759 /* planetGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7949A02B2A16D36300258759 /* planetGif.gif */; };
 		7949A02F2A16D3E200258759 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949A02E2A16D3E200258759 /* GifView.swift */; };
+		7949A03B2A2D751600258759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19C29E738EB00398669 /* Assets.xcassets */; };
 		797AC19929E738EA00398669 /* GalacticConqestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19829E738EA00398669 /* GalacticConqestApp.swift */; };
 		797AC19B29E738EA00398669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AC19A29E738EA00398669 /* ContentView.swift */; };
-		797AC19D29E738EB00398669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19C29E738EB00398669 /* Assets.xcassets */; };
 		797AC1A029E738EB00398669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AC19F29E738EB00398669 /* Preview Assets.xcassets */; };
+		797F0C412A2E591B00A7FC3A /* EnemySpriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F0C402A2E591B00A7FC3A /* EnemySpriteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +60,7 @@
 		7908AA7E29F9D7D700E8C84A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		7908AAA52A0054CB00E8C84A /* JoystickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickModel.swift; sourceTree = "<group>"; };
 		7908AAA82A0383E900E8C84A /* Super Mario Bros. 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Super Mario Bros. 2.ttf"; sourceTree = "<group>"; };
-		7908AAAA2A03864900E8C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7908AAAA2A03864900E8C84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79243B0229E88D0800174594 /* titleSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = titleSet.sks; sourceTree = "<group>"; };
 		79243B0929E8929700174594 /* HomeSrceenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSrceenView.swift; sourceTree = "<group>"; };
 		79243B0B29E8B04400174594 /* SettingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageView.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		797AC19A29E738EA00398669 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		797AC19C29E738EB00398669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797AC19F29E738EB00398669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		797F0C402A2E591B00A7FC3A /* EnemySpriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemySpriteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,13 +143,14 @@
 		79243AFF29E88C2B00174594 /* SpritekitGame */ = {
 			isa = PBXGroup;
 			children = (
+				79243B0629E88D7000174594 /* GamesTitles */,
 				7908AA3D29E8BCEB00E8C84A /* MyActions.sks */,
 				7908AA7E29F9D7D700E8C84A /* GameScene.sks */,
 				7908AA3F29E8BD3300E8C84A /* GameScene.swift */,
 				7908AAA52A0054CB00E8C84A /* JoystickModel.swift */,
 				79390C732A122D110051A3CF /* ShootingJoysickModel.swift */,
+				797F0C402A2E591B00A7FC3A /* EnemySpriteController.swift */,
 				7908AA5629EF2BF200E8C84A /* GameViewController.swift */,
-				79243B0629E88D7000174594 /* GamesTitles */,
 			);
 			path = SpritekitGame;
 			sourceTree = "<group>";
@@ -289,8 +292,8 @@
 				797AC1A029E738EB00398669 /* Preview Assets.xcassets in Resources */,
 				7908AA3E29E8BCEB00E8C84A /* MyActions.sks in Resources */,
 				7949A02C2A16D36300258759 /* planetGif.gif in Resources */,
+				7949A03B2A2D751600258759 /* Assets.xcassets in Resources */,
 				79243B0429E88D0800174594 /* titleSet.sks in Resources */,
-				797AC19D29E738EB00398669 /* Assets.xcassets in Resources */,
 				7908AA7F29F9D7D700E8C84A /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +328,7 @@
 				7908AA3C29E8BC6500E8C84A /* ShapePlusStroke.swift in Sources */,
 				7908AA4E29ECD5F800E8C84A /* LocalLobbyView.swift in Sources */,
 				7908AA5D29F73AF400E8C84A /* LobbyViewModel.swift in Sources */,
+				797F0C412A2E591B00A7FC3A /* EnemySpriteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
