@@ -334,8 +334,8 @@
             filePath = "GalacticConqest/SpritekitGame/ShootingJoysickModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "createAttactJoystickBase()"
             landmarkType = "7">
          </BreakpointContent>

@@ -18,6 +18,12 @@ class ShootingJoystickModel: SKShapeNode {
     private(set) var vector: CGVector = CGVector()
     private(set) var angle: CGFloat = 0
     private(set) var raio: CGFloat = 0
+    var projectileSprite: SKSpriteNode = SKSpriteNode()
+    var direction: CGPoint = CGPoint.zero
+    
+//    @Published var gameScene = GameScene()
+    
+    var projectitle: SKSpriteNode = SKSpriteNode()
     
     private var radius90: CGFloat = 1.57079633
     
@@ -61,7 +67,7 @@ class ShootingJoystickModel: SKShapeNode {
         self.child!.position = location
     }
     
-    public func aimInJoystickPosition(withLocation location: CGPoint) -> (xDist: CGFloat, yDist: CGFloat) {
+    public func ShootingJoystickPosition(withLocation location: CGPoint) -> (xDist: CGFloat, yDist: CGFloat) {
 //
         vector = CGVector(dx: location.x - self.position.x,
                           dy: location.y - self.position.y)
@@ -80,6 +86,7 @@ class ShootingJoystickModel: SKShapeNode {
 //
         return (xDist: xDist, yDist: yDist)
     }
+    
     
     public func coreRetun() {
         let retorno: SKAction = SKAction.move(to: self.position, duration: 0.05)

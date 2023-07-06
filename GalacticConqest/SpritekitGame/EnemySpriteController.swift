@@ -7,7 +7,7 @@
 
 import SpriteKit
 
-class EnemyAISpriteController: SKScene {
+class EnemyAISpriteController: SKSpriteNode {
     
     var enemySprite: [SKSpriteNode] = []
     
@@ -17,10 +17,10 @@ class EnemyAISpriteController: SKScene {
         
         enemySprite.append(newEnemy)
         
-        let sizeRect = self.size
-        let randomX = CGFloat(arc4random_uniform(UInt32(sizeRect.width)))
-        let ramdomY = CGFloat(arc4random_uniform(UInt32(sizeRect.height)))
-        newEnemy.position = CGPoint(x: CGFloat(randomX), y: CGFloat(ramdomY))
+//        let sizeRect = self.size
+//        let randomX = CGFloat(arc4random_uniform(UInt32(sizeRect.width)))
+//        let ramdomY = CGFloat(arc4random_uniform(UInt32(sizeRect.height)))
+//        newEnemy.position = CGPoint(x: CGFloat(randomX), y: CGFloat(ramdomY))
         
         let ai = enemySprite.count - 1
         let rangeForOrientation = SKRange(constantValue: CGFloat(M_2_PI * 7))
