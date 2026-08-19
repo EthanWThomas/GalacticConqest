@@ -12,12 +12,7 @@ import SwiftUI
 
 class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     var sceneCamera = SKCameraNode()
-    var projectileSprite: SKSpriteNode = SKSpriteNode()
     var themap: SKTileMapNode = SKTileMapNode(tileSet: SKTileSet(tileGroups: [.empty()]), columns: 24, rows: 24, tileSize: CGSize(width: 32, height: 32))
-    
-//    var playerSpeed = 3.0
-    
-    var plasmaCategory: UInt32 = 0x1 << 0
     var velocidadX: CGFloat = 0.0
     var velocidadY: CGFloat = 0.0
     
@@ -27,8 +22,6 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
     var dLastShootTime: CFTimeInterval = 1
     
     var joystick: Joystick = Joystick(radius: 50)
-    var shootingAimJoystick: ShootingJoystickModel = ShootingJoystickModel(radius: 50)
-    var enemySprite = EnemyAISpriteController()
     
     override func didMove(to view: SKView) {
     
@@ -36,59 +29,19 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
 //        else { return }
 //        playerNode.position = CGPoint(x: 0, y: 0)
 //
-//        self.player = playerNode as! PlayerModel
-
-        if let camera = self.childNode(withName: "Camera") as? SKCameraNode {
-            self.sceneCamera = camera
-        }
-        
-        if let mapNode = self.childNode(withName: "Map") as? SKTileMapNode {
-            self.themap = mapNode
-        }
-
-        camera = sceneCamera
-        
-        joystick.setNewPosition(withLocation: CGPoint(x: 0, y: -size.height/3))
-       
-        camera?.addChild(joystick)
-        camera?.addChild(joystick.child)
-        
-        camera?.addChild(shootingAimJoystick)
-        camera?.addChild(shootingAimJoystick.child!)
-        
-        joystick.hiden()
-        shootingAimJoystick.hiden()
-       
-//        player.physicsBody = SKPhysicsBody(rectangleOf: player.frame.size)
-//        player.position = CGPoint(x: self.frame.maxX, y: self.frame.midY)
+//        self.player = playerNode
 //
-//        player.xScale = 0.5
-//        player.yScale = 0.5
-        
-        self.addChild(projectileSprite)
-        
-        self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+//        if let camera = self.childNode(withName: "Camera") as? SKCameraNode {
+//            self.sceneCamera = camera
+//        }
+//
+//        if let mapNode = self.childNode(withName: "Map") as? SKTileMapNode {
+//            self.themap = mapNode
+//        }
     }
     
-    func shoot() {
-        
-        
-    }
-    
-    //MARK: Joystick/aim/shootJoystick
-    func aimJoystickTouchesBegan(_ touches: Set<UITouch>) {
-        let touch = touches.first!
-        let location = touch.location(in: sceneCamera)
-
-        if location.x > 375 / 10 {
-            shootingAimJoystick.setNewPosition(withLocation: location)
-            shootingAimJoystick.activo = true
-            shootingAimJoystick.show()
-        }
-    }
-    
+    //MARK: GameLogic
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        aimJoystickTouchesBegan(touches)
         let touch = touches.first!
         let location = touch.location(in: sceneCamera)
 
@@ -100,25 +53,17 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
             joystick.activo = false
             joystick.hiden()
         }
+        
+//        for touch in touches {
+//            let location = touch.location(in: self)
+//            let touchNode = atPoint(location)
+//            if touchNode.name == "shootButton" {
+//
+//            }
+//        }
     }
-    
-    func aimJoystickTouchesMoved(_ touches: Set<UITouch>) {
-        for touch in touches {
-            let locction = touch.location(in: sceneCamera)
-
-            if shootingAimJoystick.activo {
-                let dist = shootingAimJoystick.ShootingJoystickPosition(withLocation: locction)
-
-//                player.zRotation = shootingAimJoystick.getMyZRotation()
-
-                velocidadX = dist.xDist / 16
-                velocidadY = dist.yDist / 16
-            }
-        }
-    }
-    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-     aimJoystickTouchesMoved(touches)
+ 
         for touch in touches {
             let locction = touch.location(in: sceneCamera)
 
@@ -133,17 +78,7 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
         }
     }
     
-    func aimJoystickTouchesEnded(_ touches: Set<UITouch>) {
-        if shootingAimJoystick.activo {
-            shootingAimJoystick.coreRetun()
-            velocidadX = 0
-            velocidadY = 0
-            shootingAimJoystick.show()
-        }
-    }
-    
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-       aimJoystickTouchesEnded(touches)
         if joystick.activo {
             joystick.coreReturn()
             velocidadX = 0
@@ -159,13 +94,11 @@ class GameScene: SKScene, ObservableObject, SKPhysicsContactDelegate {
 //        joystick.position = CGPoint(x: (camera?.position.x)! - 275, y: (camera?.position.y)! - 100)
 //        joystick.position = CGPoint(x: sceneCamera.position.x - 575, y: sceneCamera.position.y - 250)
         deltaTime = currentTime - lastTime
-//
+
 //        if joystick.activo {
 //            player.position = CGPoint(x: player.position.x - (velocidadX),
 //                                    y: player.position.y + (velocidadY))
 //        }
-//
-//
 //        lastTime = currentTime
     }
     
